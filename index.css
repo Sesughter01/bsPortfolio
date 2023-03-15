@@ -1,1 +1,22 @@
+:root{
+    --bg_red:#ff1100;
+    --bg_blue:#2211ff;
 
+    /* fonts */
+    --fs_body:1rem;
+    --fs_header:2rem;
+  
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+h1{
+    background-color: var(--bg_blue);
+}
